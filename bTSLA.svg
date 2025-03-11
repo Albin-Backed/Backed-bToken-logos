@@ -1,12 +1,12 @@
 import React from 'react'
 import type { ColorValue } from 'react-native'
-import { Svg } from 'react-native-svg'
-import type { NumberProp } from 'react-native-svg/src/lib/extract/types'
+import Svg, { SvgProps } from 'react-native-svg'
+import type { NumberProp } from 'react-native-svg'
 
 import { colors } from '@zeal/uikit/colors'
 import { useTextStyleInheritContext } from '@zeal/uikit/Text'
 
-type Props = {
+type Props = SvgProps & {
     children: React.ReactNode
     id?: string
     viewBox?: string
@@ -25,18 +25,20 @@ export const SvgIcon = ({
     color,
     fill,
     'aria-label': ariaLabel,
+    ...rest
 }: Props) => {
     const textStylesContext = useTextStyleInheritContext()
-    const selectedColour = color || colors[textStylesContext.color]
+    const selectedColour = color || colors[textStylesContext.color] || 'currentColor'
+
     return (
         <Svg
             style={{ flexShrink: 0 }}
             viewBox={viewBox}
             width={width}
             height={height}
-            color={selectedColour}
-            fill={fill}
-            aria-label={ariaLabel}
+            fill={fill || selectedColour}
+            accessibilityLabel={ariaLabel}
+            {...rest}
         >
             {children}
         </Svg>
