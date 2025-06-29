@@ -1,16 +1,21 @@
-<svg version='1.1' xmlns='http://www.w3.org/2000/svg' xmlns:xlink='http://www.w3.org/1999/xlink' 
-    width="100%" height="100%" viewBox="0 0 380.0 55.2" 
-    style="display: block; margin: auto;" xml:space='preserve'>
-  <style type='text/css'> .st0{fill-rule:evenodd;clip-rule:evenodd;} </style>
-  <g transform="translate(0,0)">
-    <g><g><g><g><g>
-      <path fill='white' d='M37.2,7.4V0H7.4l0,0L0,7.4v22.3c0,4.1,3.3,7.4,7.4,7.4h22.3c4.1,0,7.4-3.3,7.4-7.4v-7.4v-7.4H18.6v7.4h11.2v7.4H7.4 V7.4H37.2z'/>
-      <path fill='white' d='M52.1,0h-7.4v29.8c0,4.1,3.3,7.4,7.4,7.4h29.8v-7.4H52.1V0z'/>
-      <path fill='white' d='M119.2,29.8H96.8V0h-7.4v29.8c0,4.1,3.3,7.4,7.4,7.4h22.3c4.1,0,7.4-3.3,7.4-7.4V0h-7.4V29.8z'/>
-      <path fill='white' d='M171.3,7.4V0h-29.8l0,0l-7.4,7.4v7.4v7.4v7.4c0,4.1,3.3,7.4,7.4,7.4h29.8v-7.4h-29.8v-7.4h14.9v-7.4h-14.9V7.4H171.3z'/>
-    </g><polygon fill='white' points='230.9,0 222.9,0 216.6,14.9 208.1,14.9 201.8,0 193.7,0 201.5,18.6 193.7,37.2 201.8,37.2 208.1,22.3 216.6,22.3 222.9,37.2 230.9,37.2 223.1,18.6 '/>
-    </g><g>
-      <path fill='white' d='M234.6,0.9V0h5v0.9h-2.1v6.6h-0.9V0.9H234.6z'/>
-      <path fill='white' d='M240.8,7.4V0h0.9l1.6,2.4l1.6-2.4h0.9v7.4H245V1.5l-1.2,1.7c0,0.1-0.1,0.2-0.1,0.4v0.5h-0.9V3.7c0-0.2,0-0.3-0.1-0.4 l-1.2-1.7v5.9H240.8z'/>
-    </g></g></g></g></g>
+<svg width="64" height="64" viewBox="0 0 64 64" fill="none" xmlns="http://www.w3.org/2000/svg">
+<g clip-path="url(#clip0_490_13169)">
+<g clip-path="url(#clip1_490_13169)">
+<path d="M0 0H64V64H0V0Z" fill="#1E2540"/>
+<path d="M43.4285 31.4396C49.6571 33.4739 53.4514 36.8339 54.8571 38.8567H51.1771C48.9319 36.7808 46.2986 35.169 43.4285 34.1139V38.8567H41.1428V33.3253C35.1793 31.5334 28.8206 31.5334 22.8571 33.3253V38.8567H20.5714V34.1253C17.6772 35.1818 15.015 36.7885 12.7314 38.8567H9.14282C10.56 36.8453 14.3543 33.4853 20.5714 31.451V21.7139H43.4285V31.4396ZM22.8571 30.7996C25.5314 30.1367 28.5828 29.7139 32.0228 29.7139C35.0952 29.6991 38.1579 30.0599 41.1428 30.7882V23.9996H22.8571V30.7996Z" fill="url(#paint0_linear_490_13169)"/>
+</g>
+<path d="M42.4523 64H21.548L32.0001 53.5479L42.4523 64ZM10.4523 32L0.00012207 42.4521V21.5479L10.4523 32ZM64.0001 42.4521L53.548 32L64.0001 21.5479V42.4521ZM32.0001 10.4521L21.548 0H42.4523L32.0001 10.4521Z" fill="black" fill-opacity="0.5"/>
+</g>
+<defs>
+<linearGradient id="paint0_linear_490_13169" x1="13.6457" y1="37.451" x2="48.24" y2="37.451" gradientUnits="userSpaceOnUse">
+<stop stop-color="#F78734"/>
+<stop offset="1" stop-color="#FF4B34"/>
+</linearGradient>
+<clipPath id="clip0_490_13169">
+<rect width="64" height="64" fill="white"/>
+</clipPath>
+<clipPath id="clip1_490_13169">
+<rect width="64" height="64" fill="white"/>
+</clipPath>
+</defs>
 </svg>
